@@ -4,6 +4,9 @@
 
 int main()
 {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(0);
+    
     int q, k;
     
     std::cin >> q;
@@ -28,7 +31,7 @@ int main()
             n.pop();
         }
         else if (k == 3) {
-            std::cout << n.top().second << std::endl;
+            std::cout << n.top().second << "\n";
         }
     }
 }
